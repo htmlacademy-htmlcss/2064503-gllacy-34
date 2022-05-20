@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Даниил Катаев](https://up.htmlacademy.ru/htmlcss/34/user/2064503).
-* Наставник: `Неизвестно`.
+* Наставник: [Никита Сигов](https://up.htmlacademy.ru/profession/frontender/14/htmlcss/34/user/17860). 
 
 ---
 
