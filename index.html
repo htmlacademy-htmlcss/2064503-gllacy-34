@@ -44,19 +44,38 @@
 
       <section class="best-product">
         <h2 class="visually-hidden">Лучший товар</h2>
-        <h3 class="Best-product-title">Нежный пломбир с клубничным джемом</h3>
-        <p class="Best-product-description">Натуральное мороженое из свежих сливок
-          и молока с вкуснейшим клубничным джемом – это идеальный десерт для всей семьи.</p>
+        <ul class="best-product-list">
+          <li class="best-product-item">
+            <h3 class="best-product-title">Нежный пломбир с клубничным джемом</h3>
+            <p class="best-product-description">Натуральное мороженое из свежих сливок
+              и молока с вкуснейшим клубничным джемом – это идеальный десерт для всей семьи.</p>
+          </li>
+
+          <li class="best-product-item visually-hidden">
+            <h3 class="best-product-title">Сливочное мороженое со вкусом банана</h3>
+            <p class="best-product-description">Сливочное мороженое с ярким банановым вкусом подарит вам свежесть и наслаждение даже в самый жаркий летний день. </p>
+          </li>
+
+          <li class="best-product-item visually-hidden">
+            <h3 class="best-product-title">Карамельный пломбирс маршмеллоу</h3>
+            <p class="best-product-description">Необычный сладкий десерт с карамельным топпингом и кусочками зефира завоюет сердца сладкоежек всех возрастов.</p>
+          </li>
+        </ul>
+
+
         <a class="button button" href="#">Заказать</a>
         <button class="slider-button slider-prev" type="button">
           <span class="visually-hidden">Предыдущее мороженное</span>
         </button>
-        <img class="best-product-img" src="" alt="Нежный пломбир с клубничным джемом">
         <button class="slider-button slider-next" type="button">
           <span class="visually-hidden">Следующее мороженное</span>
         </button>  
-        <img class="best-product-img-next" src="" alt="Сливочное мороженое со вкусом банана">
-        <img class="best-product-img-next" src="" alt="Карамельный пломбирс маршмеллоу">
+
+
+        <img class="best-product-img best-product-img-active" src="" alt="Нежный пломбир с клубничным джемом">
+        <img class="best-product-img" src="" alt="Сливочное мороженое со вкусом банана">
+        <img class="best-product-img" src="" alt="Карамельный пломбирс маршмеллоу">
+        
         <ol class="slider-pagination">
           <li class="slider-pagination-item">
             <button class="slider-pagination-button slider-pagination-button-current" type="button">
@@ -97,7 +116,7 @@
 
       </section>
         
-      <section class="gifts">
+      <article class="gifts">
         <h2 class="gifts-title">Заказывайте мороженое и получайте подарки!</h2>
         <div class="gift">
           <h3 class="gift-subtitle">Малинка даром!</h3>
@@ -106,11 +125,10 @@
         </div>
         <div class="gift">
           <h3 class="gift-subtitle">Маршмеллоу даром!</h3>
-
           <p class="gift-description">При покупке 2 кг пломбира добавим в ваш заказ упаковку нежных зефирок совершенно бесплатно.</p>
           <a class="button button" href="#">Хочу подарок</a>
         </div>
-      </section>
+      </article>
 
       <section class="products">
         <h2 class="products-title">Попробуйте самые популярные вкусы нашего мороженого</h2>
