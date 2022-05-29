@@ -32,8 +32,8 @@ body {
 
 .button {
     font-weight: 700;
-    text-align: center;
     line-height: 20px;
+    text-align: center;
     color: #2D3440;
     background-color: #FCFCFC;
     text-decoration: none;
@@ -59,6 +59,11 @@ body {
 
 .button-light{ 
     background-color: rgba(252, 252, 252, 0.3);;
+}
+
+.navigation-link-current {
+    color:#FCFCFC;
+    background-color: #FF2F64;
 }
 
 /* main */
@@ -111,6 +116,13 @@ body {
     color: #565C66;
 }
 
+.blog {
+    background-color: #FCFCFC;
+    background-image: url("/images/blog-background.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
 .blog-article {
     font-weight: 700;
     font-size: 24px;
@@ -134,6 +146,13 @@ body {
     line-height: 46px;
 }
 
+.delivery {
+    background-color:#FCFCFC;
+    background-image: url("/images/delivery-background.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
 .delivery-slogan,
 .delivery-info,
 .contacts-subtitle,
@@ -152,11 +171,60 @@ body {
     color: #B9B9B9;
 }
 
+.contacts {
+    background-color:#FCFCFC;
+    background-image: url("/images/contacts-background.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.contacts-address {
+    font-style: normal;
+}
+
 .contacts-address-text,
 .contacts-phone {
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
+}
+
+.contacts-phone {
+    text-decoration: none;
+    color:#2D3440;
+}
+
+/* main-index */
+
+.breadcrumbs-link {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    color:#2D3440;
+}
+
+.breadcrumbs-link-current {
+    text-decoration: underline;
+}
+.select-control-title,
+.catalog-filter-title {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.select-control,
+.catalog-filter-list{
+    font-size: 14px;
+    line-height: 20px;
+    background-color: rgba(252, 252, 252, 0.3);
+    color: #2D3440;
+}
+
+.button-filter {
+    font-size: 14px;
+    background-color: rgba(252, 252, 252, 0.3);
 }
 
 /* footer */
@@ -168,5 +236,27 @@ body {
     color:#2D3440;
 }
 
+.html-academy-text {
+    font-size: 12px;
+    line-height: 16px;
+}
 
+.html-academy-link {
+    font-size: 12px;
+    line-height: 16px;
+    color:#2D3440;
+}
+
+.button-white {
+    background-color: #FCFCFC;
+}
+
+.pagination-link {
+    text-decoration: none;
+    color: #2D3440;
+}
+
+.pagination-current {
+    background-color: #FCFCFC;
+}
 
