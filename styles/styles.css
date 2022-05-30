@@ -207,6 +207,7 @@ body {
 .breadcrumbs-link-current {
     text-decoration: underline;
 }
+
 .select-control-title,
 .catalog-filter-title {
     font-size: 14px;
