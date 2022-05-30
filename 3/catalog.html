@@ -3,41 +3,41 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог</title>
+    <link rel="stylesheet" href="styles/styles.css">
     <base href="https://htmlacademy-htmlcss.github.io/2064503-gllacy-34/3/">
 </head>
   <body>
 
     <header class="page-header">
-        <nav class="navigation">
-          <a class="navigation-logo" href="index.html">
-            <img class="page-header-logo" src="images\logo-htmlacademy.svg" wedth="137" height="56" alt="Логотип магазина Глейси">
-          </a>
-          <ul class="navigation-list">
-            <li class="navigation-item">
-              <a class="navigation-link navigation-link-current" href="catalog.html" >Каталог</a>
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="#" >Доставка и оплата</a>
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="#" >О компании</a>
-            </li>
-          </ul>
-          <a class="navigation-phone" href="tel:+78005558628">+7 800 555-86-28</a>
-          <ul class="navigation-list navigation-user">
-            <li class="navigation-item">
-              <button class="natton" type="button">
-                <span class="visually-hidden">Поиск</span>
-              </button>
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="#">Профиль</a>
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="#">Корзина</a>
-            </li>
-          </ul>
-        </nav>
+      <nav class="navigation">
+        <a class="navigation-logo" href="index.html">
+          <img class="page-header-logo" src="images\logo-gllacy.svg" wedth="137" height="56" alt="Логотип магазина Глейси">
+        </a>
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link navigation-link-current" href="catalog.html" >Каталог</a>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#" >Доставка и оплата</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#" >О компании</a>
+          </li>
+        </ul>
+        <a class="navigation-phone" href="tel:+78005558628">+7 800 555-86-28</a>
+        <ul class="navigation-list navigation-user">
+          <li class="navigation-item">
+            <button class="natton" type="button">
+              <span class="visually-hidden button button-light">Поиск</span>
+            </button>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link button button-light " href="#">Вход</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link button button-light" href="#">Корзина</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main class="main-inner">
@@ -48,13 +48,14 @@
             <a class="breadcrumbs-link" href="index.html">Главная</a>
           </li>
           <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link"  href="">Каталог</a>
+            <a class="breadcrumbs-link breadcrumbs-link-current"  href="">Каталог</a>
           </li>
         </ul>
       </header>
 
       <section class="catalog-products">
-        <h2 class="catalog-title">Сливочное мороженоеи</h2>
+        <h2 class="catalog-title">Сливочное мороженое</h2>
+        <h3 class="select-control-title">Сортировка:</h3>
         <select class="select-control" aria-label="Сортировка">
           <option value="popular">по популярности</option>
           <option value="cheap">сначала дешёвое</option>
@@ -139,7 +140,7 @@
             </a>
             <p class="products-description">Сливочное мороженое с малиновым джемом</p>
             <b class="products-price">310 ₽/кг</b>
-            <button class="button button-pink" type="button">
+            <button class="button  button-pink-card" type="button">
               <span class="visually-hidden">Добавить в карзину</span>
             </button>
           </li>
@@ -151,7 +152,7 @@
           </a>
             <p class="products-description">Фисташковый пломбир с кусочками шоколада</p>
             <b class="products-price">340 ₽/кг</b>
-            <button class="button button-pink" type="button">
+            <button class="button  button-pink-card" type="button">
               <span class="visually-hidden">Добавить в карзину</span>
             </button>
           </li>
@@ -163,7 +164,7 @@
             </a>
             <p class="products-description">Крем-брюле с черничным джемом</p>
             <b class="products-price">330 ₽/кг</b>
-            <button class="button button-pink" type="button">
+            <button class="button  button-pink-card" type="button">
               <span class="visually-hidden">Добавить в карзину</span>
             </button>
           </li>
@@ -175,7 +176,7 @@
             </a>
             <p class="products-description">Ванильный пломбир со сладкой посыпкой</p>
             <b class="products-price">310 ₽/кг</b>
-            <button class="button button-item" type="button">
+            <button class="button  button-pink-card" type="button">
               <span class="visually-hidden">Добавить в карзину</span>
             </button>
           </li>
@@ -187,7 +188,7 @@
             </a>
             <p class="products-description">Сливочное мороженое с ежевичным джемом</p>
             <b class="products-price">330 ₽/кг</b>
-            <button class="button button-pink" type="button">
+            <button class="button button-pink-card" type="button">
               <span class="visually-hidden">Добавить в карзину</span>
             </button>
           </li>
@@ -199,7 +200,7 @@
           </a>
             <p class="products-description">Сливочный пломбир с банановым вкусом</p>
             <b class="products-price">340 ₽/кг</b>
-            <button class="button button-pink" type="button">
+            <button class="button button-pink-card" type="button">
               <span class="visually-hidden">Добавить в карзину</span>
             </button>
           </li>
@@ -211,7 +212,7 @@
             </a>
             <p class="products-description">Классический шоколадный пломбир</p>
             <b class="products-price">270 ₽/кг</b> 
-            <button class="button button-pink" type="button">
+            <button class="button button-pink-card" type="button">
               <span class="visually-hidden">Добавить в карзину</span>
             </button>
           </li>
@@ -223,7 +224,7 @@
             </a>
             <p class="products-description">Сливочный пломбир с клубничным вкусом</p>
             <b class="products-price">300 ₽/кг</b>
-            <button class="button button-item" type="button">
+            <button class="button button-pink-card" type="button">
               <span class="visually-hidden">Добавить в карзину</span>
             </button>
           </li>
@@ -237,7 +238,7 @@
             </a>
             <p class="products-description">Освежающий лимонный сорбет</p>
             <b class="products-price">310 ₽/кг</b>
-            <button class="button button-pink" type="button">
+            <button class="button button-pink-card" type="button">
               <span class="visually-hidden">Добавить в карзину</span>
             </button>
           </li>
@@ -249,7 +250,7 @@
           </a>
             <p class="products-description">Сливочный пломбир с ментоловым сиропом</p>
             <b class="products-price">320 ₽/кг</b>
-            <button class="button button-pink" type="button">
+            <button class="button button-pink-card" type="button">
               <span class="visually-hidden">Добавить в карзину</span>
             </button>
           </li>
@@ -261,7 +262,7 @@
             </a>
             <p class="products-description">Фисташковый пломбир с шоколадным сиропом</p>
             <b class="products-price">360 ₽/кг</b>
-            <button class="button button-pink" type="button" >
+            <button class="button button-pink-card" type="button" >
               <span class="visually-hidden">Добавить в карзину</span>
             </button>
           </li>
@@ -273,13 +274,13 @@
             </a>
             <p class="products-description">Классическое крем-брюле </p>
             <b class="products-price">280 ₽/кг</b>
-            <button class="button button-item" type="button">
+            <button class="button  button-pink-card" type="button">
               <span class="visually-hidden">Добавить в карзину</span>
             </button>
           </li>
         </ul>
 
-        <button class="button pagination-show-more" type="button">Показать ещё</button>
+        <button class="button button-white" type="button">Показать ещё</button>
         <ul class="pagination">
           <li class="pagination-item">
             <a class="pagination-link pagination-prev" href="#">
