@@ -1,0 +1,263 @@
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts\inter-400.woff2) format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    src: url(fonts\inter-700.woff2) format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    src: url(fonts\inter-900.woff2) format("woff2");
+    font-display: swap;
+}
+
+body {
+    font-family:  "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2D3440;
+    background-color: #FEAFC3;
+}
+
+.button {
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    color: #2D3440;
+    background-color: #FCFCFC;
+    text-decoration: none;
+}
+
+/* header */
+
+.navigation-phone,
+.navigation-link {
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.navigation-user .navigation-link{
+    font-size: 14px;
+}
+
+.navigation-phone {
+    font-weight: 700;
+}
+
+.button-light{ 
+    background-color: rgba(252, 252, 252, 0.3);;
+}
+
+.navigation-link-current {
+    color:#FCFCFC;
+    background-color: #FF2F64;
+}
+
+/* main */
+
+.best-product-title {
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 900;
+}
+
+.best-product-description {
+    font-size: 18px;
+    line-height: 24px;
+    color: #565C66;
+}
+
+.button-pink-card {
+    background-color: #FF2F64;
+}
+
+.gifts-title,
+.products-title,
+.advantages-title {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+}
+
+.products-item-link {
+    text-decoration: none;
+    color:#2D3440;
+}
+
+.products-item-title {
+    text-align: center;
+}
+
+.products-item-title,
+.products-price {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.blog-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #565C66;
+}
+
+.blog {
+    background-color: #FCFCFC;
+    background-image: url("/images/blog-background.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.blog-article {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #2D3440;
+}
+
+.newsletter-slogan {
+    color: #565C66;
+}
+
+.button-pink {
+    color:#FCFCFC;
+    background-color: #FF2F64;
+}
+
+.delivery-title {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 46px;
+}
+
+.delivery {
+    background-color:#FCFCFC;
+    background-image: url("/images/delivery-background.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.delivery-slogan,
+.delivery-info,
+.contacts-subtitle,
+.contacts-phone-text,
+.contacts-time {
+    color: #565C66;
+}
+
+.form-label {
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.delivery-form-date input {
+    line-height: 20px;
+    color: #B9B9B9;
+}
+
+.contacts {
+    background-color:#FCFCFC;
+    background-image: url("/images/contacts-background.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.contacts-address {
+    font-style: normal;
+}
+
+.contacts-address-text,
+.contacts-phone {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.contacts-phone {
+    text-decoration: none;
+    color:#2D3440;
+}
+
+/* main-index */
+
+.breadcrumbs-link {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    color:#2D3440;
+}
+
+.breadcrumbs-link-current {
+    text-decoration: underline;
+}
+
+.select-control-title,
+.catalog-filter-title {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.select-control,
+.catalog-filter-list{
+    font-size: 14px;
+    line-height: 20px;
+    background-color: rgba(252, 252, 252, 0.3);
+    color: #2D3440;
+}
+
+.button-filter {
+    font-size: 14px;
+    background-color: rgba(252, 252, 252, 0.3);
+}
+
+/* footer */
+
+.info-item a {
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    color:#2D3440;
+}
+
+.html-academy-text {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.html-academy-link {
+    font-size: 12px;
+    line-height: 16px;
+    color:#2D3440;
+}
+
+.button-white {
+    background-color: #FCFCFC;
+}
+
+.pagination-link {
+    text-decoration: none;
+    color: #2D3440;
+}
+
+.pagination-current {
+    background-color: #FCFCFC;
+}
+
