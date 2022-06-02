@@ -228,7 +228,7 @@ body {
 
 /* footer */
 
-.info-item a {
+.info-item-link {
     font-size: 14px;
     line-height: 20px;
     text-decoration: none;
