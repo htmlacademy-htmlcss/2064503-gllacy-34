@@ -2,7 +2,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/inter-400.woff2) format("woff2");
+  src: url(../fonts/inter-400.woff2) format("woff2");
   font-display: swap;
 }
 
@@ -10,7 +10,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  src: url(fonts/inter-700.woff2) format("woff2");
+  src: url(../fonts/inter-700.woff2) format("woff2");
   font-display: swap;
 }
 
@@ -18,7 +18,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
-  src: url(fonts/inter-900.woff2) format("woff2");
+  src: url(../fonts/inter-900.woff2) format("woff2");
   font-display: swap;
 }
 
@@ -135,6 +135,11 @@ body {
   text-align: center;
 }
 
+.gifts-title {
+  width: 434px;
+  padding: 0;
+  margin: 0 auto;
+}
 
 .gift-container {
   display: flex;
@@ -150,16 +155,23 @@ body {
 }
 
 .gift-raspberry {
-  background-image: url("/images/gift-raspberry.png");
+  background-image: url("../images/gift-raspberry.png");
 }
 
 .gift-marshmallow {
-  background-image: url("/images/gift-marshmallow.png");
+  background-image: url("../images/gift-marshmallow.png");
+}
+
+.products-title {
+  width: 527px;
+  padding: 0;
+  margin: 0 auto;
 }
 
 .products-list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
 }
@@ -187,7 +199,7 @@ body {
 
 .waffle-border {
   padding: 24px;
-  background-image: url("/images/waffle.jpg");
+  background-image: url("../images/waffle.jpg");
   background-repeat: no-repeat;
   background-size: 1170px;
   border-radius: 16px;
@@ -195,6 +207,12 @@ body {
 
 .advantages {
   background-color: #FCFCFC;
+}
+
+.advantages-title {
+  width: 995px;
+  padding: 0;
+  margin: 0 auto;
 }
 
 .centering-container {
@@ -214,7 +232,7 @@ body {
 .blog {
   width: 570px;
   background-color: #FCFCFC;
-  background-image: url("/images/blog-background.jpg");
+  background-image: url("../images/blog-background.jpg");
   background-position: right;
   background-repeat: no-repeat;
 }
@@ -231,7 +249,7 @@ body {
   width: 558px;
   padding: 6px;
   color: #FCFCFC;
-  background-image: url("/images/postal-background.jpg");
+  background-image: url("../images/postal-background.jpg");
   background-repeat: no-repeat;
   background-size: 570px;
 }
@@ -246,6 +264,19 @@ body {
   background-color: #FF2F64;
 }
 
+.delivery-text-container {
+  width: 371px;
+  padding: 0;
+  margin: 167px 0 153px 100px;
+}
+
+.delivery-form-container {
+  padding: 40px 40px 42px;
+  margin: 64px 64px 64px 135px;
+  width: 500px;
+  background-color: #FCFCFC;
+}
+
 .delivery-title {
   font-weight: 900;
   font-size: 32px;
@@ -253,8 +284,11 @@ body {
 }
 
 .delivery {
+  display: flex;
+  padding: 0;
+  margin: 0;
   background-color:#FCFCFC;
-  background-image: url("/images/delivery-background.jpg");
+  background-image: url("../images/delivery-background.jpg");
   background-position: right;
   background-repeat: no-repeat;
 }
@@ -279,10 +313,19 @@ body {
 }
 
 .contacts {
+  padding: 64px;
+  margin: 0;
   background-color:#FCFCFC;
-  background-image: url("/images/contacts-background.jpg");
+  background-image: url("../images/contacts-background.jpg");
   background-position: right;
   background-repeat: no-repeat;
+}
+
+.contacts-container {
+  width: 343px;
+  margin: 0px;
+  padding: 0 40px;
+  background-color:#FCFCFC;
 }
 
 .contacts-address {
@@ -315,11 +358,31 @@ body {
   text-decoration: underline;
 }
 
+.filter-container-1 {
+  width: 823px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-container-2 {
+  width: 809px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .select-control-title,
 .catalog-filter-title {
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
+}
+
+.dummy {
+  width: 168px;
+}
+
+.pagination-container {
+  width: 168px;
 }
 
 .select-control,
@@ -333,6 +396,12 @@ body {
 .button-filter {
   font-size: 14px;
   background-color: rgba(252, 252, 252, 0.3);
+}
+
+.button-centerer-container {
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* footer */
@@ -374,11 +443,6 @@ body {
   font-size: 12px;
   line-height: 16px;
   color:#2D3440;
-}
-
-.pagination-container {
-  width: 120px;
-  margin-left: auto;
 }
 
 .pagination-current,
