@@ -22,20 +22,22 @@
             <a class="navigation-link" href="#" >О компании</a>
           </li>
         </ul>
-        <li>
-          <a class="navigation-phone" href="tel:+78005558628">+7 800 555-86-28</a>
-        </li>
+
+
         <ul class="navigation-list navigation-user">
+          <li>
+            <a class="navigation-phone" href="tel:+78005558628">+7 800 555-86-28</a>
+          </li>
           <li class="navigation-item">
-            <button class="natton" type="button">
-              <span class="visually-hidden">Поиск</span>
+            <button class="navigation-link button navigation-button" type="button">
+              <span class="visually-hidden ">Поиск</span>
             </button>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link button button-light " href="#">Вход</a>
+            <a class="navigation-link button navigation-button" href="#">Вход</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link button button-light" href="#">2 товара</a>
+            <a class="navigation-link button navigation-button" href="#">2 товара</a>
           </li>
         </ul>
       </nav>
@@ -46,7 +48,7 @@
 
         <header class="inner-header">
           <h1 class="visually-hidden">Каталог</h1>
-          <ul class="breadcrumbs">
+          <ul class="breadcrumbs-list">
             <li class="breadcrumbs-item">
               <a class="breadcrumbs-link" href="index.html">Главная</a>
             </li>
@@ -65,9 +67,9 @@
               <div class="sorting-container">
                 <h3 class="select-control-title">Сортировка:</h3>
                 <select class="select-control" aria-label="Сортировка">
-                  <option value="popular">по популярности</option>
-                  <option value="cheap">сначала дешёвое</option>
-                  <option value="expensive">сначала дорогое</option>
+                  <option class="select-control-item" value="popular ">по популярности</option>
+                  <option class="select-control-item" value="cheap">сначала дешёвое</option>
+                  <option class="select-control-item" value="expensive">сначала дорогое</option>
                 </select>
               </div>
               <fieldset class="catalog-filter-group">
@@ -137,7 +139,7 @@
                   </li>
                 </ul>
               </fieldset>
-              <button class="button" type="submit">Применить</button>
+              <button class="button filter-button" type="submit">Применить</button>
             </div>
           </form>
 
@@ -291,12 +293,11 @@
           </ul>
 
           <div class="button-centerer-container">
-            <div class="dummy"></div>
             <div>
-              <button class="button button-white" type="button">Показать ещё</button>
+              <button class="button button-white pagination-batton-centeter" type="button">Показать ещё</button>
             </div>
             <div class="pagination-container">
-              <ul class="pagination">
+              <ul class="pagination-list">
                 <li class="pagination-item">
                   <a class="pagination-link pagination-prev" href="#">
                     <span class="visually-hidden">Предыдущая страница</span>
@@ -308,8 +309,8 @@
                 <li class="pagination-item">
                   <a class="pagination-link" href="#">2</a>
                 </li>
-                <li class="pagination-item">
-                  <a class="pagination-link pagination-current" href="#">3</a>
+                <li class="pagination-item pagination-current">
+                  <a class="pagination-link" href="#">3</a>
                 </li>
                 <li class="pagination-item">
                   <a class="pagination-link" href="#">4</a>
@@ -372,7 +373,7 @@
 
         <section class="html-academy">
           <h2 class="visually-hidden">HTML академия</h2>
-          <a href="https://htmlacademy.ru/">
+          <a class="html-academy-logo-link" href="https://htmlacademy.ru/">
             <img class="html-academy-logo" src="images/logo-htmlacademy.svg" width="93" height="27" alt="Логотип HTML академии.">
           </a>
           <p class="html-academy-text">Сделано в <a class="html-academy-link" href="https://htmlacademy.ru/">.html academy </a>© 2021</p>
