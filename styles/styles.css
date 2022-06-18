@@ -85,6 +85,9 @@ body {
 .button-pink {
   margin: 0;
   padding: 12px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
   color:#FCFCFC;
   background-color: #FF2F64;
 }
@@ -552,10 +555,40 @@ body {
   padding: 0;
 }
 
+.delivery-form {
+  display: grid;
+  grid-template-columns: 117px 287px;
+  row-gap: 16px;
+  column-gap: 20px;
+}
+
 .delivery-info {
-  width: 380px;
   margin: 0;
   padding: 0;
+  grid-column: 1 / -1;
+}
+
+.delivery-form-date {
+  grid-column: 1 / 2;
+}
+
+.delivery-form-phone {
+  grid-column: 2 / 2;
+}
+
+.delivery-form-address {
+  grid-column: 1 / -1;
+}
+
+.delivery-button {
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+
+.delivery-field-group {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
 }
 
 .form-label {
