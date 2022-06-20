@@ -85,11 +85,10 @@ body {
 .button-pink {
   margin: 0;
   padding: 12px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
   color:#FCFCFC;
-  background-color: #FF2F64;
-}
-
-.button-pink-card {
   background-color: #FF2F64;
 }
 
@@ -358,29 +357,49 @@ body {
 .products-title {
   width: 527px;
   padding: 0;
-  margin: 0 auto;
+  margin: 0 auto 56px;
 }
 
 .products-list {
-  display: flex;
-  margin: 56px 0 0;
+  display: grid;
+  margin: 44px 0 0;
   padding: 0;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  grid-template-columns: 270px 270px 270px 270px;
   list-style-type: none;
+  gap: 40px 30px;
 }
 
 .products-list-item {
+  display: flex;
   width: 270px;
+  margin: 51px 0 0;
+  flex-direction: column;
   background-color: #FCFCFC;
 }
 
-.products-item-link {
+.products-item-link-image {
+  display: block;
+  margin: -51px auto 0;
+  width: 168px;
+  height: 168px;
+}
+
+.product-card-content {
+  padding: 16px 40px 24px;
+}
+
+.products-item-link-title {
   text-decoration: none;
   color:#2D3440;
 }
 
 .products-item-title {
+  margin: 0 0 8px;
+  text-align: center;
+}
+
+.products-description {
+  margin: 0 0 16px;
     text-align: center;
 }
 
@@ -389,6 +408,23 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+}
+
+.price-card-container {
+  display: flex;
+  margin: 0;
+}
+
+.products-price {
+  align-self: center;
+}
+
+.button-pink-card {
+  min-width: 32px;
+  min-height: 32px;
+  margin-left: auto;
+  background-color: #FF2F64;
+  border-radius: 50%;
 }
 
 /* Advantages */
@@ -552,10 +588,40 @@ body {
   padding: 0;
 }
 
+.delivery-form {
+  display: grid;
+  grid-template-columns: 117px 287px;
+  row-gap: 16px;
+  column-gap: 20px;
+}
+
 .delivery-info {
-  width: 380px;
   margin: 0;
   padding: 0;
+  grid-column: 1 / -1;
+}
+
+.delivery-form-date {
+  grid-column: 1 / 2;
+}
+
+.delivery-form-phone {
+  grid-column: 2 / 2;
+}
+
+.delivery-form-address {
+  grid-column: 1 / -1;
+}
+
+.delivery-button {
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+
+.delivery-field-group {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
 }
 
 .form-label {
