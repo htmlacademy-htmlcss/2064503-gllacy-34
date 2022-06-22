@@ -127,8 +127,11 @@ body {
 }
 
 .navigation-link {
+  position: relative;
   display: block;
   padding: 8px 16px;
+  border: none;
+  border-radius: 30px;
 }
 
 .navigation-phone,
@@ -157,6 +160,29 @@ body {
 
 .navigation-button{
   background-color: rgba(252, 252, 252, 0.3);
+}
+
+.navigation-item .navigation-button-login,
+.navigation-item .navigation-button-cart {
+  padding-left: 38px;
+}
+
+.navigation-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  fill: #2D3440;
+}
+
+
+.navigation-button-login .navigation-icon,
+.navigation-button-cart .navigation-icon {
+  right: auto;
+  left: 17px;
+  margin: auto 0;
 }
 
 .navigation-link-current {
@@ -320,6 +346,7 @@ body {
   background-position: right;
   background-repeat: no-repeat;
   background-size: 219px 268px;
+  border-radius: 16px;
 }
 
 .gift-raspberry {
@@ -377,6 +404,7 @@ body {
   margin: 51px 0 0;
   flex-direction: column;
   background-color: #FCFCFC;
+  border-radius: 8px;
 }
 
 .products-item-link-image {
@@ -426,11 +454,22 @@ body {
 }
 
 .button-pink-card {
+  position: relative;
   min-width: 32px;
   min-height: 32px;
   margin-left: auto;
   background-color: #FF2F64;
   border-radius: 50%;
+}
+
+.priduct-card-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  fill: #FCFCFC;
 }
 
 /* Advantages */
@@ -444,7 +483,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 16px;
-
 }
 
 .advantages {
@@ -473,6 +511,8 @@ body {
   width: 505px;
   margin-top: 40px;
   margin-left: 32px;
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 
 .advantages-item:nth-child(1),
@@ -489,6 +529,22 @@ body {
   margin: 0;
   padding: 0;
   margin-left: 64px;
+}
+
+.advantages-item-ice-cream {
+  background-image: url(../images/ice-cream-on-stick.svg);
+}
+
+.advantages-item-cow {
+  background-image: url(../images/cow-pin.svg);
+}
+
+.advantages-item-sheet {
+  background-image: url(../images/sheet-pin.svg);
+}
+
+.advantages-item-thermometer {
+  background-image: url(../images/thermometer-pin.svg);
 }
 
 /* Centering-container */
@@ -510,6 +566,7 @@ body {
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 16px;
 }
 
 .blog-title {
@@ -567,6 +624,7 @@ body {
   background-image: url("../images/delivery-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 16px;
 }
 
 .delivery-text-container {
@@ -580,6 +638,7 @@ body {
   padding: 40px 40px 42px;
   margin: 64px 64px 64px 135px;
   background-color: #FCFCFC;
+  border-radius: 8px;
 }
 
 .delivery-title {
@@ -651,6 +710,7 @@ body {
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 16px;
 }
 
 .contacts-container {
@@ -658,6 +718,7 @@ body {
   margin: 0;
   padding: 40px 40px 42px;
   background-color:#FCFCFC;
+  border-radius: 8px;
 }
 
 .contacts-address {
