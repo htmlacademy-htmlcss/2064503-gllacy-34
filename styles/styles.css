@@ -234,10 +234,12 @@ body {
 
 .best-product-img:nth-child(2) {
   margin-left: 79px;
+  flex-shrink: 0;
 }
 
 .best-product-img:nth-child(3) {
   margin-left: 75px;
+  flex-shrink: 0;
 }
 
 /* Social */
@@ -437,6 +439,7 @@ body {
   background-color: antiquewhite;
   background-repeat: no-repeat;
   background-size: 2000px;
+  border-radius: 16px;
 
 }
 
