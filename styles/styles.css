@@ -386,6 +386,10 @@ body {
   height: 168px;
 }
 
+.products-item-img {
+  border-radius: 50%;
+}
+
 .product-card-content {
   padding: 16px 40px 24px;
 }
@@ -438,7 +442,7 @@ body {
   background-image: url("../images/waffle.jpg");
   background-color: antiquewhite;
   background-repeat: no-repeat;
-  background-size: 2000px;
+  background-size: cover;
   border-radius: 16px;
 
 }
@@ -505,7 +509,7 @@ body {
   background-image: url("../images/blog-background.jpg");
   background-position: right;
   background-repeat: no-repeat;
-  background-size: 500px auto;
+  background-size: cover;
 }
 
 .blog-title {
@@ -537,7 +541,7 @@ body {
   color: #FCFCFC;
   background-image: url("../images/postal-background.jpg");
   background-repeat: no-repeat;
-  background-size: 570px;
+  background-size: cover;
   border-radius: 16px;
 }
 
@@ -561,7 +565,7 @@ body {
   margin: 80px 0 0;
   background-color:#FCFCFC;
   background-image: url("../images/delivery-background.jpg");
-  background-position: right;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -646,7 +650,7 @@ body {
   background-image: url("../images/contacts-background.jpg");
   background-position: right;
   background-repeat: no-repeat;
-  background-size: 1171px;
+  background-size: cover;
 }
 
 .contacts-container {
