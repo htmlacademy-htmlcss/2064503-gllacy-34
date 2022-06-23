@@ -74,14 +74,6 @@ body {
   background: #FCFCFC;
 }
 
-.social-button {
-  min-width: 24px;
-  min-height: 24px;
-  margin: 0;
-  padding: 0;
-  background-color: #FCFCFC;
-}
-
 .button-pink {
   margin: 0;
   padding: 12px 32px;
@@ -704,7 +696,7 @@ body {
 
 .contacts {
   padding: 64px;
-  margin: 80px 0 0;
+  margin: 80px 0 -4px;
   background-color:#FCFCFC;
   background-image: url("../images/contacts-background.jpg");
   background-position: right;
@@ -975,6 +967,12 @@ body {
 
 /* Social */
 
+.footer-social-box {
+  width: 104px;
+  margin-left: 4px;
+  margin-right: 299px;
+}
+
 .footer-social-list {
   display: flex;
   margin: 0;
@@ -983,6 +981,8 @@ body {
 }
 
 .footer-social-item {
+  width: 24px;
+  height: 24px;
   margin: 0;
   padding: 0;
   margin-right: 16px;
@@ -992,11 +992,17 @@ body {
   margin: 0;
 }
 
+.footer-social-link {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+}
 
-.footer-social {
-  width: 104px;
-  margin-left: 4px;
-  margin-right: 299px;
+.social-icon {
+  margin: auto;
+  fill: #FCFCFC;
 }
 
 /* Info */
@@ -1015,8 +1021,9 @@ body {
 }
 
 .info-item {
+  position: relative;
   min-width: 126px;
-  margin: 6px 0 0 24px;
+  margin: 8px 0 0 24px;
   padding: 0;
 }
 
@@ -1031,10 +1038,6 @@ body {
   padding: 0;
 }
 
-.html-academy {
-  width: 193px;
-}
-
 .info-item-link {
   font-size: 14px;
   line-height: 20px;
@@ -1042,7 +1045,24 @@ body {
   color:#2D3440;
 }
 
+.info-item-link-provider::before {
+  content: "";
+  position: absolute;
+  left: -22px;
+  top: 2px;
+  display: block;
+  width: 14px;
+  height: 14px;
+  background-image: url(../images/heart.svg);
+  background-repeat: no-repeat;
+  background-size: 14px 14px;
+}
+
 /* HTML academy */
+
+.html-academy {
+  width: 193px;
+}
 
 .html-academy-logo-link {
   display: block;
