@@ -68,11 +68,15 @@ body {
 .button-white {
   margin: 0;
   padding: 12px 32px;
+  font-weight: 700;
   font-size: 16px;
+  font-style: normal;
+  line-height: 20px;
   border: 4px solid rgba(252, 252, 252, 0.4);
   box-shadow: 0 4px 12px rgba(45, 52, 64, 0.1);
   border-radius: 26px;
-  background: #FCFCFC;
+  background-color: #FCFCFC;
+  background-clip: padding-box
 }
 
 .button-pink {
@@ -82,8 +86,9 @@ body {
   font-size: 16px;
   line-height: 20px;
   color:#FCFCFC;
-  background: #FF2F64;
+  background-color: #FF2F64;
   border: 4px solid rgba(255, 47, 100, 0.3);
+  background-clip: padding-box
 }
 
 /* Header */
@@ -242,7 +247,8 @@ body {
 }
 
 .best-product-button {
-  margin-top: 48px;
+  margin-top: 44px;
+  margin-left: -4px;
 }
 
 /* Slaider images */
@@ -371,7 +377,8 @@ body {
 }
 
 .gifts-button {
-  margin-top: 28px;
+  margin-top: 24px;
+  margin-left: -4px;
 }
 
 /* Products */
@@ -458,6 +465,7 @@ body {
   margin-left: auto;
   background-color: #FF2F64;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .priduct-card-image {
@@ -714,7 +722,7 @@ body {
 .contacts-container {
   width: 263px;
   margin: 0;
-  padding: 40px 40px 42px;
+  padding: 40px 40px 38px;
   background-color:#FCFCFC;
   border-radius: 8px;
 }
@@ -766,7 +774,8 @@ body {
 }
 
 .contacts-button {
-  margin-top: 32px;
+  margin-top: 28px;
+  margin-left: -4px;
 }
 
 /* Main-index */
@@ -785,6 +794,7 @@ body {
 }
 
 .breadcrumbs-item {
+  position: relative;
   margin: 0;
   padding: 0;
   margin-left: 28px;
@@ -795,6 +805,22 @@ body {
 
 .breadcrumbs-item:first-child {
   margin-left: 0;
+}
+
+.breadcrumbs-item::before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: -16px;
+  display: block;
+  width: 14px;
+  height: 14px;
+  background-image: url(../images/breadcrumbs-union.svg);
+  background-repeat: no-repeat;
+}
+
+.breadcrumbs-item:first-child::before {
+  display: none;
 }
 
 .breadcrumbs-link {
@@ -908,18 +934,18 @@ body {
 }
 
 .pagination-batton-centeter {
-  margin-left: 488px;
+  margin-left: 484px;
 }
 
 .pagination-container {
   padding: 0;
   margin-left: auto;
-  width: 168px;
+  min-width: 168px;
 }
 
 .pagination-list {
   display: flex;
-  margin: 0;
+  margin-right: -5px;
   padding: 0;
   list-style-type: none;
 }
@@ -930,11 +956,25 @@ body {
   min-height: 24px;
   align-items: center;
   justify-content: center;
+  border-radius: 50%;
+}
+
+.pagination-item:first-child {
+  margin-right: 4px;
+}
+
+.pagination-item:last-child {
+  margin-left: 4px;
 }
 
 .pagination-link {
   text-decoration: none;
   color: #2D3440;
+}
+
+.pagination-link-icon {
+  fill: #2D3440;
+
 }
 
 .pagination-current {
