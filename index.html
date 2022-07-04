@@ -23,7 +23,7 @@
                 <span class="navigation-drop-stripe"></span>
               </li>
               <li class="navigation-drop-item">
-                <a class="navigation-drop-link">Сливочное</a>
+                <a class="navigation-drop-link" href="catalog.html">Сливочное</a>
               </li>
               <li class="navigation-drop-item">
                 <a class="navigation-drop-link">Щербеты</a>
@@ -467,5 +467,31 @@
         </section>
       </div>
     </footer>
+    <div class="modal-container modal-container-close">
+      <div class="modal modal-auth">
+        <button class="modal-close-button">
+          <span class="visually-hidden">Закрыть</span>
+        </button>
+        <section class="modal-content">
+          <h2 class="visually-hidden">Обратная связь</h2>
+          <p class="modal-content-slogan">Мы обязательно ответим вам!</p>
+          <form class="modal-form">
+            <p class="modal-form-name modal-form-group">
+              <label class="form-label" for="modal-name"></label>
+              <input class="field" type="text" id="modal-name" name="modal-name" placeholder="Имя и фамилия">
+            </p>
+            <p class="modal-form-email modal-form-group">
+              <label class="form-label" for="modal-email"></label>
+              <input class="field" type="email" id="modal-email" name="modal-email" placeholder="email@example.com">
+            </p>
+            <p class="modal-form-text modal-form-group">
+              <label class="form-label" for="modal-text"></label>
+              <textarea class="field" type="text" id="modal-text" name="modal-text" placeholder="В свободной форме"></textarea>
+            </p>
+            <button class="button button-pink modal-form-button" type="submit">Отправить</button>
+          </form>
+        </section>
+      </div>
+    </div>
   </body>
 </html>
