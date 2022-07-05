@@ -6,8 +6,7 @@
     <link rel="stylesheet" href="styles/styles.css">
     <base href="https://htmlacademy-htmlcss.github.io/2064503-gllacy-34/9/">
 </head>
-  <body>
-
+  <body class="body-pink">
     <header class="page-header">
       <nav class="navigation">
         <a class="navigation-logo" href="">
@@ -153,7 +152,7 @@
               </li>
 
               <li class="best-product-item visually-hidden">
-                <h3 class="best-product-title">Карамельный пломбирс маршмеллоу</h3>
+                <h3 class="best-product-title">Карамельный пломбир <br> с маршмеллоу</h3>
                 <p class="best-product-description">Необычный сладкий десерт с карамельным топпингом и кусочками зефира завоюет сердца сладкоежек всех возрастов.</p>
                 <a class="button button-white best-product-button" href="#">Заказать</a>
               </li>
@@ -169,6 +168,10 @@
               <svg class="slider-button-icon" aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.14 2.86a.66.66 0 1 0-.95.95L10.4 8l-4.2 4.2a.67.67 0 0 0 .95.94l4.66-4.67a.66.66 0 0 0 0-.94L7.15 2.86Z"/></svg>
               <span class="visually-hidden">Следующее мороженное</span>
             </button>
+
+            <!-- Классы для контроля слайдов  "slaider-blue", "slaider-yellow" -->
+            <!-- Если бы можно было использывать вложенность больше 2, смена слайда была бы сделана более практична -->
+            <!-- Для переключения в ul добавляется нужный класс, у li и img меняются классы active/inactive -->
 
             <ul class="best-product-image-list">
               <li class="best-product-image-item best-product-image-item-active">
@@ -294,7 +297,7 @@
                 <a class="products-item-link-title" href="">
                   <h3 class="products-item-title">Черника</h3>
                 </a>
-                <p class="products-description">Крем-брюле с черничным джемом</p>
+                <p class="products-description">Крем-брюле <br> с черничным джемом</p>
                 <div class="price-card-container">
                   <b class="products-price">330 ₽/кг</b>
                   <button class="button  button-pink-card" type="button">
@@ -313,7 +316,7 @@
                 <a class="products-item-link-title" href="">
                   <h3 class="products-item-title">Бабл-гам</h3>
                 </a>
-                <p class="products-description">Ванильный пломбир со сладкой посыпкой</p>
+                <p class="products-description">Ванильный пломбир <br> со сладкой посыпкой</p>
                 <div class="price-card-container">
                   <b class="products-price">320 ₽/кг</b>
                   <button class="button  button-pink-card" type="button">
@@ -337,7 +340,7 @@
                 <p class="advantages-item-text">Закупка ингредиентов производится только <br> у проверенных фермерских хозяйств, с которыми <br> нас связывает долговременное сотрудничество.</p>
               </li>
               <li class="advantages-item advantages-item-sheet">
-                <p class="advantages-item-text">Для приготовления мороженого используются сливки и молоко высочайшего качества. Все ингредиенты и добавки произведены из натурального сырья.</p>
+                <p class="advantages-item-text">Для приготовления мороженого используются сливки и молоко высочайшего качества. Все ингредиенты <br> и добавки произведены из натурального сырья.</p>
               </li>
               <li class="advantages-item advantages-item-thermometer">
                 <p class="advantages-item-text">Доставка нашего мороженого осуществляется в специальном термопаке, который не даёт мороженому растаять и позволяет сохранить превосходный вкус.</p>
@@ -350,13 +353,13 @@
         <div class="centering-container">
           <article class="blog">
             <h2 class="blog-title">Новое в нашем блоге</h2>
-            <a class="blog-article" href="#">10 способов сервировки фруктовых щербетов к столу</a>
+            <a class="blog-article" href="#">10 способов сервировки фруктовых щербетов <br> к столу</a>
           </article>
 
           <div class="postal-background">
             <section class="newsletter">
               <h2 class="visually-hidden">Подписка на рассылку</h2>
-              <p class="newsletter-slogan">Подпишитесь на нашу сладкую рассылку и будьте всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
+              <p class="newsletter-slogan">Подпишитесь на нашу сладкую рассылку и будьте всегда <br> в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
               <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
                 <label class="visually-hidden" for="newsletter-email" >Email</label>
                 <input class="field" placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
