@@ -151,6 +151,12 @@ body {
   border-radius: 4px;
 }
 
+.field::placeholder {
+  font-family:  "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
 /* Social item */
 
 .social-item {
@@ -386,8 +392,8 @@ body {
   display: none;
   min-width: 135px;
   padding: 8px 0;
-  top: 40px;
-  left: 0;
+  top: 43px;
+  left: 2px;
   box-sizing: border-box;
   background-color: #FCFCFC;
   box-shadow: 0 8px 16px rgba(45, 52, 64, 0.12);
@@ -1214,9 +1220,9 @@ body {
   padding: 32px;
   background-color: #FCFCFC;
   background-image: url("../images/blog-background.jpg");
-  background-position: right;
+  background-position: -10px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 660px;
   border-radius: 16px;
 }
 
@@ -1873,23 +1879,23 @@ body {
   margin-right: 4px;
 }
 
-.pagination-item:last-child {
+.pagination-item:last-of-type {
   margin-left: 4px;
 }
 
 .pagination-link {
   display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 24px;
-    min-height: 24px;
-    box-sizing: border-box;
-    font-size: 16px;
-    line-height: 20px;
-    color: #2D3440;
-    text-decoration: none;
-    border-radius: 50%;
-    background-color: #00000000;
+  justify-content: center;
+  align-items: center;
+  min-width: 24px;
+  min-height: 24px;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2D3440;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #00000000;
 }
 
 .pagination-link:hover {
@@ -1909,6 +1915,10 @@ body {
 
 .pagination-link-icon {
   fill: #2D3440;
+}
+
+.pagination-next .pagination-link-icon {
+  padding-left: 4px;
 }
 
 .pagination-current {
@@ -2088,7 +2098,7 @@ body {
 .modal {
   position: relative;
   margin: auto;
-  padding: 62px;
+  padding: 64px;
   box-sizing: border-box;
   background-color: #FCFCFC;
   box-shadow: 0 15px 40px rgba(45, 52, 64, 0.12);
@@ -2133,7 +2143,7 @@ body {
 }
 
 .modal-form-group:last-of-type {
-  margin-bottom: 32px;
+  margin-bottom: 28px;
 }
 
 .modal-form-group .field {
@@ -2142,11 +2152,12 @@ body {
 
 .modal-form-text .field {
   min-height: 149px;
+  box-sizing: border-box;
   resize: none;
 }
 
 .modal-form-button {
   display: block;
-  margin-right: -4px;
+  margin-right: -6px;
   margin-left: auto;
 }
