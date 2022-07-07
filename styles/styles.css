@@ -154,6 +154,33 @@ body {
   background-color: #B9B9B9;
 }
 
+/* Spiner */
+.spiner-white,
+.spiner-dark {
+  position: relative;
+  padding-right: 56px;
+}
+
+.spiner-dark::after {
+  position: absolute;
+  content: '';
+  width: 16px;
+  height: 16px;
+  top: 14px;
+  right: 32px;
+  background-image: url(../images/icon-loading-dark.svg);
+}
+
+.spiner-white::after {
+  position: absolute;
+  content: '';
+  width: 16px;
+  height: 16px;
+  top: 14px;
+  right: 32px;
+  background-image: url(../images/icon-loading-white.svg);
+}
+
 
 /* Form */
 
@@ -696,6 +723,7 @@ body {
 .best-product {
   position: relative;
   display: flex;
+  margin-bottom: 80px;
 }
 
 .best-product-list {
@@ -985,7 +1013,7 @@ body {
 /* Gifts */
 
 .gifts {
-  margin: 80px 0 0;
+  margin-bottom: 80px;
   padding: 0;
 }
 
@@ -1044,7 +1072,7 @@ body {
 /* Products */
 
 .products {
-  margin: 80px 0 0;
+  margin-bottom: 80px;
   padding: 0;
 }
 
@@ -1180,7 +1208,7 @@ body {
 
 .waffle-border {
   width: 1122px;
-  margin: 80px 0 0;
+  margin-bottom: 80px;
   padding: 24px;
   background-image: url("../images/waffle.jpg");
   background-color: antiquewhite;
@@ -1255,7 +1283,7 @@ body {
 
 .centering-container {
   display: flex;
-  margin: 80px 0 0;
+  margin-bottom: 80px;
   padding: 0;
   justify-content: space-between;
 }
@@ -1334,7 +1362,7 @@ body {
 .delivery {
   display: flex;
   padding: 0;
-  margin: 80px 0 0;
+  margin-bottom: 80px;
   background-color:#FCFCFC;
   background-image: url("../images/delivery-background.jpg");
   background-size: cover;
@@ -1488,7 +1516,7 @@ body {
 
 .contacts {
   padding: 64px;
-  margin: 80px 0 -4px;
+  margin-bottom: -4px;
   background-color:#FCFCFC;
   background-image: url("../images/contacts-background.jpg");
   background-position: right;
