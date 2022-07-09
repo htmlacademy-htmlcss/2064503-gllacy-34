@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>Каталог</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="images/favicon.png">
   </head>
   <body class="body-pink">
     <header class="page-header">
@@ -51,14 +53,14 @@
             <button class="navigation-link navigation-button-search navigation-button" type="button">
               <svg class="navigation-icon" aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.66 6.19a4.67 4.67 0 1 1 9.34 0 4.67 4.67 0 0 1-9.34 0Zm8.42 4.69a6 6 0 1 1 .94-.94l2.45 2.44a.67.67 0 1 1-.94.95l-2.45-2.45Z"/></svg>
               <span class="visually-hidden ">Поиск</span>
-              <div class="popover popover-search">
-                <h2 class="visually-hidden">Поиск</h2>
-                <form class="popover-search-form" action="https://echo.htmlacademy.ru/" method="post">
-                  <label class="form-label" for="search"></label>
-                  <input class="field" type="text" id="search" name="search" placeholder="Поиск по сайту">
-                </form>
-              </div>
             </button>
+            <div class="popover popover-search">
+              <h2 class="visually-hidden">Поиск</h2>
+              <form class="popover-search-form" action="https://echo.htmlacademy.ru/" method="post">
+                <label class="form-label" for="search"></label>
+                <input class="field" type="text" id="search" name="search" placeholder="Поиск по сайту">
+              </form>
+            </div>
           </li>
           <li class="navigation-item">
             <a class="navigation-link navigation-button-login navigation-button" href="#">
@@ -95,7 +97,7 @@
               <h2 class="popover-title">Корзина</h2>
               <ul class="cart-items-list">
                 <li class="cart-item">
-                  <img class="cart-item-image" src="images/catalog/catalog-1.jpg" width="46" height="46">
+                  <img class="cart-item-image" src="images/catalog/catalog-1.jpg" width="46" height="46" alt="Мороженное со вкусом малины.">
                   <p class="cart-item-title">Малинка</p>
                   <p class="cart-item-count">1 кг х 310 ₽</p>
                   <span class="cart-item-price">310 ₽</span>
@@ -106,7 +108,7 @@
                 </li>
 
                 <li class="cart-item">
-                  <img class="cart-item-image" src="images/catalog/catalog-4.jpg" width="46" height="46">
+                  <img class="cart-item-image" src="images/catalog/catalog-4.jpg" width="46" height="46" alt="Мороженное со вкусом бабл-гам.">
                   <p class="cart-item-title">Бабл-гам</p>
                   <p class="cart-item-count">1,5 кг х 320 ₽</p>
                   <span class="cart-item-price">480 ₽</span>
